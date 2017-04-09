@@ -9,10 +9,12 @@ GLUON_SITE_PACKAGES := \
 	gluon-alfred \
 	gluon-respondd \
 	gluon-autoupdater \
+	ffgt-geolocate \
+	gluon-siteselect-ffgt \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
-	gluon-config-mode-geo-location \
+	gluon-config-mode-geo-location-ffgt \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
