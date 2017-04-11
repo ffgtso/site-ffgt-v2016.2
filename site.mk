@@ -36,8 +36,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-ssid-changer \
 	haveged \
 	iptables \
-	iwinfo \
-	ffgt-nachtruhe-hack
+	iwinfo
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
