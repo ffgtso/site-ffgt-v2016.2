@@ -17,17 +17,22 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-geo-location-ffgt \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
+	gluon-config-mode-ppa \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-admin \
 	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
 	gluon-luci-wifi-config \
+	gluon-luci-private-wifi \
+	ffho-luci-remote-syslog \
+	ffrn-lowmem-patches \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
+	gluon-ssid-changer \
 	haveged \
 	iptables \
 	iwinfo
