@@ -25,7 +25,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-portconfig \
 	gluon-luci-wifi-config \
 	gluon-luci-private-wifi \
-	ffho-luci-remote-syslog \
 	ffrn-lowmem-patches \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
