@@ -11,6 +11,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-autoupdater \
 	ffgt-geolocate \
 	ffgt-siteselect \
+	ffgt-banner \
+	ffgt-setup-mode \
+	gluon-luci-wifi-config-ffgt \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
@@ -23,7 +26,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-admin \
 	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
-	gluon-luci-wifi-config \
 	gluon-luci-private-wifi \
 	ffrn-lowmem-patches \
 	gluon-next-node \
@@ -34,7 +36,8 @@ GLUON_SITE_PACKAGES := \
 	gluon-ssid-changer \
 	haveged \
 	iptables \
-	iwinfo
+	iwinfo \
+	ffgt-nachtruhe-hack
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
