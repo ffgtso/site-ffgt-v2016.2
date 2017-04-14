@@ -15,7 +15,7 @@ GLUON_SITE_PACKAGES := \
 	ffgt-banner \
 	ffgt-setup-mode \
 	gluon-luci-wifi-config-ffgt \
-	gluon-config-mode-autoupdater \
+	gluon-config-mode-autoupdater-ffgt \
 	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
 	gluon-config-mode-geo-location-ffgt \
