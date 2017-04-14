@@ -14,7 +14,6 @@ GLUON_SITE_PACKAGES := \
 	ffgt-siteselect \
 	ffgt-banner \
 	ffgt-setup-mode \
-	ffgt-status-page \
 	gluon-luci-wifi-config-ffgt \
 	gluon-config-mode-autoupdater-ffgt \
 	gluon-config-mode-contact-info \
