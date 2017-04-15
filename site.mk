@@ -8,8 +8,10 @@ GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-14 \
 	gluon-node-info-ffgt \
 	gluon-alfred \
+	alfred-restart \
 	gluon-respondd \
 	gluon-autoupdater \
+	ffho-autoupdater-wifi-fallback \
 	ffgt-geolocate \
 	ffgt-siteselect \
 	ffgt-banner \
@@ -24,6 +26,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-admin \
+	ffho-luci-autoupdater-wifi-fallback \
 	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
 	gluon-luci-private-wifi \
@@ -37,6 +40,33 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	iptables \
 	iwinfo
+
+USB_BASIC := \
+	kmod-usb-core \
+	kmod-usb2 \
+	kmod-usb-hid
+
+
+USB_NIC := \
+	kmod-usb-net \
+	kmod-usb-net-asix \
+	kmod-usb-net-rtl8150 \
+	kmod-usb-net-rtl8152 \
+	kmod-usb-net-dm9601-ether
+
+ifeq ($(GLUON_TARGET),x86-generic)
+	GLUON_SITE_PACKAGES += \
+		$(USB_BASIC) \
+		kmod-usb-ohci-pci \
+		$(USB_NIC)
+endif
+
+ifeq ($(GLUON_TARGET),x86-64)
+	GLUON_SITE_PACKAGES += \
+		$(USB_BASIC) \
+		$(USB_NIC) \
+		kmod-igb #APU2
+endif
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
@@ -65,3 +95,4 @@ GLUON_REGION ?= eu
 
 # Languages to include
 GLUON_LANGS ?= en de
+GLUON_ATH10K_MESH ?= 11s
