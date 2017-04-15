@@ -1,0 +1,62 @@
+Release Notes for gluon-ffgt-@@RELEASE@@
+
+This Freifunk Firmware is based off Gluon v2016.2.4 and modified by several additional, non-standard modules:
+
+ - gluon-node-info-ffgt
+
+   Enhanced version of upstream's gluon-node-info. Propagates additional info needed by our setup
+
+ - alfred-restart
+
+   micrond-job that checks for running alfred daemon and restartes if missing
+
+ - ffgt-geolocate
+
+   Main scripts around our geolocation-aware setup process
+
+ - ffgt-siteselect
+
+   site.conf and supporting scripts for exchanging the site configuration on the node
+
+ - ffgt-banner
+
+   Pimped motd file
+
+ - ffgt-setup-mode
+
+   Base scripts of our geolocation-aware setup process
+
+ - gluon-luci-wifi-config-ffgt
+
+   Enhanced version of luci-wifi-config; allows to select "nighttime peace" setting, i. d. AP will be disabled from 22:00 to 06:00
+
+ - gluon-config-mode-autoupdater-ffgt
+
+   Reminds user to activate auto-update if it's off
+
+ - gluon-config-mode-geo-location-ffgt
+
+   LuCI part of our geolocation-aware setup process
+
+ - gluon-config-mode-hostname-ffgt
+
+   We preset the hostname to Streetname + "-" + Last6DigitsOfMAC, and always prepend ZIP + "-". NO PRETTY HOSTNAME BS!
+
+ - gluon-luci-portconfig-ffgt
+
+   Add WiFi as WAN feature (based on implementation of Freifunk Celle for v2015.1)
+
+ - ffrn-lowmem-patches
+
+   Disable havegd outside of Config Mode
+
+ - gluon-status-page-ffgt
+
+   The new status page with additional data
+
+ - gluon-ssid-changer
+
+   Change SSID to "FF_OFFLINE_*" on no connection to the mesh, reboot after being offline for 3660 seconds continiously
+
+
+Further Build Information:
