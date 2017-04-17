@@ -44,7 +44,7 @@ This Freifunk Firmware is based off Gluon v2016.2.4 and modified by several addi
 
  - gluon-luci-portconfig-ffgt
 
-   Add WiFi as WAN feature (based on implementation of Freifunk Celle for v2015.1)
+   Add WiFi as WAN feature (based on implementation of Freifunk Celle for v2015.1) *** NOT YET THERE!!! ***
 
  - ffrn-lowmem-patches
 
