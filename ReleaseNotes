@@ -58,5 +58,8 @@ This Freifunk Firmware is based off Gluon v2016.2.4 and modified by several addi
 
    Change SSID to "FF_OFFLINE_*" on no connection to the mesh, reboot after being offline for 3660 seconds continiously
 
+ - gluon-radv-filterd
+
+   This package drops all incoming router advertisements except for the default router with the best metric according to B.A.T.M.A.N. advanced.
 
 Further Build Information:
