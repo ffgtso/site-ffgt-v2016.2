@@ -36,6 +36,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-setup-mode \
 	gluon-status-page-ffgt \
 	gluon-ssid-changer \
+	ffho-autoupdater-wifi-fallback \
+	ffho-luci-autoupdater-wifi-fallback \
+	ffho-luci-remote-syslog \
 	haveged \
 	iptables \
 	iwinfo
