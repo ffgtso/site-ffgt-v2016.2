@@ -6,6 +6,7 @@
 
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-14 \
+	gluon-core-ffgt \
 	gluon-node-info-ffgt \
 	gluon-alfred \
 	alfred-restart \

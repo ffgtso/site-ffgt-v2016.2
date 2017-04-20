@@ -2,6 +2,14 @@ Release Notes for gluon-ffgt-@@RELEASE@@
 
 This Freifunk Firmware is based off Gluon v2016.2.4 and modified by several additional, non-standard modules:
 
+ - gluon-core-ffgt
+
+   FFGT changed version of gluon-core (keep MAC of WAN interface)
+
+ - gluon-ffgt-hacks
+
+   Dirty cleanup stuff to build FFGT firmware with unmodified Gluon v2016.2.x tree ...
+
  - gluon-node-info-ffgt
 
    Enhanced version of upstream's gluon-node-info. Propagates additional info needed by our setup
