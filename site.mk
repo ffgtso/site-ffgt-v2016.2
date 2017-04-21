@@ -6,7 +6,6 @@
 
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-14 \
-	gluon-core-ffgt \
 	gluon-node-info-ffgt \
 	gluon-alfred \
 	alfred-restart \
@@ -39,6 +38,7 @@ GLUON_SITE_PACKAGES := \
 	ffho-autoupdater-wifi-fallback \
 	ffho-luci-autoupdater-wifi-fallback \
 	ffho-luci-remote-syslog \
+	gluon-ffgt-hacks \
 	haveged \
 	iptables \
 	iwinfo
