@@ -16,6 +16,7 @@ GLUON_SITE_PACKAGES := \
 	ffgt-banner \
 	ffgt-setup-mode \
 	gluon-luci-wifi-config-ffgt \
+	gluon-luci-portconfig-ffgt \
 	gluon-config-mode-autoupdater-ffgt \
 	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
@@ -25,7 +26,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-admin \
-	gluon-luci-portconfig \
 	gluon-luci-private-wifi \
 	ffrn-lowmem-patches \
 	gluon-next-node \
