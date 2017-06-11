@@ -1,6 +1,6 @@
 Release Notes for gluon-ffgt-@@RELEASE@@
 
-This Freifunk Firmware is based off Gluon v2016.2.4 and modified by several additional, non-standard modules:
+This Freifunk Firmware is based off Gluon v2016.2.6 and modified by several additional, non-standard modules:
 
  - gluon-ffgt-hacks
 
@@ -21,7 +21,7 @@ This Freifunk Firmware is based off Gluon v2016.2.4 and modified by several addi
 
  - ffgt-siteselect
 
-   site.conf and supporting scripts for exchanging the site configuration on the node
+   site.conf (site.json these days) and supporting scripts for exchanging the site configuration on the node
 
  - ffgt-banner
 
@@ -33,7 +33,7 @@ This Freifunk Firmware is based off Gluon v2016.2.4 and modified by several addi
 
  - gluon-luci-wifi-config-ffgt
 
-   Enhanced version of luci-wifi-config; allows to select "nighttime peace" setting, i. d. AP will be disabled from 22:00 to 06:00
+   Enhanced version of luci-wifi-config; allows to select "nighttime peace" setting, i. d. AP can be disabled from 22:00 to 06:00
 
  - gluon-config-mode-autoupdater-ffgt
 
@@ -69,11 +69,11 @@ This Freifunk Firmware is based off Gluon v2016.2.4 and modified by several addi
 
  - ffho-autoupdater-wifi-fallback
 
-   Implements switching to fallback mode if we are cut off from the mesh
+   Implements switching to fallback mode if we are cut off from the mesh *** STILL EXPERIMENTAL ***
 
  - ffho-luci-autoupdater-wifi-fallback
 
-   Luci module for gluon-autoupdater and ffho-autoupdater-wifi-fallback
+   Luci module for gluon-autoupdater and ffho-autoupdater-wifi-fallback *** STILL EXPERIMENTAL ***
 
  - ffho-luci-remote-syslog
 
