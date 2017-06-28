@@ -31,13 +31,11 @@ GLUON_SITE_PACKAGES := \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
-	gluon-radv-filterd \
 	gluon-setup-mode \
 	gluon-status-page-ffgt \
 	gluon-ssid-changer \
 	ffho-autoupdater-wifi-fallback \
 	ffho-luci-autoupdater-wifi-fallback \
-	ffho-luci-remote-syslog \
 	gluon-ffgt-hacks \
 	haveged \
 	iptables \

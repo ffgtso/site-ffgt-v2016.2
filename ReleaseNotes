@@ -63,10 +63,6 @@ This Freifunk Firmware is based off Gluon v2016.2.6 and modified by several addi
 
    Change SSID to "FF_OFFLINE_*" on no connection to the mesh, reboot after being offline for >3660 seconds continously
 
- - gluon-radv-filterd
-
-   This package drops all incoming router advertisements except for the default router with the best metric according to B.A.T.M.A.N. advanced.
-
  - ffho-autoupdater-wifi-fallback
 
    Implements switching to fallback mode if we are cut off from the mesh *** STILL EXPERIMENTAL ***
@@ -75,8 +71,5 @@ This Freifunk Firmware is based off Gluon v2016.2.6 and modified by several addi
 
    Luci module for gluon-autoupdater and ffho-autoupdater-wifi-fallback *** STILL EXPERIMENTAL ***
 
- - ffho-luci-remote-syslog
-
-   Luci module for setting a remote syslog server
 
 Further Build Information:
