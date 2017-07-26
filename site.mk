@@ -24,7 +24,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-hostname-ffgt \
 	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
 	gluon-luci-admin \
 	gluon-luci-private-wifi \
 	ffrn-lowmem-patches \
