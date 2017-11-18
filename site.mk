@@ -37,6 +37,7 @@ GLUON_SITE_PACKAGES := \
 	ffho-autoupdater-wifi-fallback \
 	ffho-luci-autoupdater-wifi-fallback \
 	gluon-ffgt-hacks \
+	kmod-l2tp kmod-l2tp-ip kmod-l2tp-eth ip-full \
 	haveged \
 	iptables \
 	iwinfo
