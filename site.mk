@@ -32,13 +32,16 @@ GLUON_SITE_PACKAGES := \
 	gluon-setup-mode \
 	gluon-status-page-ffgt \
 	gluon-ssid-changer \
-	ffho-autoupdater-wifi-fallback \
-	ffho-luci-autoupdater-wifi-fallback \
 	gluon-ffgt-hacks \
 	kmod-l2tp kmod-l2tp-ip kmod-l2tp-eth ip-full \
 	haveged \
 	iptables \
 	iwinfo
+
+# 2017-11-26 left out for now:
+#	ffho-autoupdater-wifi-fallback \
+#	ffho-luci-autoupdater-wifi-fallback \
+
 
 USB_BASIC := \
 	kmod-usb-core \
