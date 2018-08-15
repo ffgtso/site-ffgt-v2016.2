@@ -35,7 +35,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-ffgt-hacks \
 	haveged \
 	iptables \
-	gluon-v14tov15-helper \
 	iwinfo
 
 # 2017-11-26 left out for now:
