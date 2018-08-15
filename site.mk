@@ -33,9 +33,10 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page-ffgt \
 	gluon-ssid-changer \
 	gluon-ffgt-hacks \
-	kmod-l2tp kmod-l2tp-ip kmod-l2tp-eth ip-full \
+	ip-full \
 	haveged \
 	iptables \
+	gluon-v14tov15-helper
 	iwinfo
 
 # 2017-11-26 left out for now:
