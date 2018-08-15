@@ -33,7 +33,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page-ffgt \
 	gluon-ssid-changer \
 	gluon-ffgt-hacks \
-	ip-full \
 	haveged \
 	iptables \
 	gluon-v14tov15-helper \
