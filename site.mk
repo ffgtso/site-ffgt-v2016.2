@@ -35,6 +35,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-ffgt-hacks \
 	haveged \
 	iptables \
+	tecff-autoupdater-wifi-fallback \
 	iwinfo
 
 # 2017-11-26 left out for now:
