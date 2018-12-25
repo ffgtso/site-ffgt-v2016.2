@@ -1,6 +1,6 @@
 Release Notes for gluon-ffgt-@@RELEASE@@
 
-This Freifunk Firmware is based off Gluon v2016.2.7 and modified by several additional, non-standard modules:
+This Freifunk Firmware is based on Gluon v2016.2.7 +3 patches and contains some additional modules:
 
  - gluon-ffgt-hacks
 
